@@ -1,0 +1,5 @@
+tqdm
+pydot
+matplotlib
+mecab-python3
+unidic

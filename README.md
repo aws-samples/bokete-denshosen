@@ -49,8 +49,8 @@ Boke data: 26 GB (8.8 GB in ZIP) including 1M+ images.
 - `images/*.jpg`: `boke.csv` の `odai_photo_url` に対応した JPEG 形式の画像ファイル。画像サイズは長辺が 400 pixel または 600 pixel 
 
 ### CSV ヘッダ
-- `id`: ボケID。https://bokete.jp/boke/:id でサイトでの表示を見ることができます。
-- `odai_id`: お題ID。https://bokete.jp/odai/:odai_id でサイトでの表示を見ることができます。
+- `id`: ボケID。`https://bokete.jp/boke/:id` でサイトでの表示を見ることができます。
+- `odai_id`: お題ID。`https://bokete.jp/odai/:odai_id` でサイトでの表示を見ることができます。
 - `odai_photo_id`: お題画像 ID
 - `odai_photo_url`: お題画像の相対 URL
 - `odai_user_id`: お題を投稿したユーザー ID

@@ -64,7 +64,7 @@ Boke data: 26 GB (8.8 GB in ZIP) including 1M+ images.
 - `labels`: お題画像をラベル検出エンジンにかけて、一般的な物体・場所・活動・動物の種類・商品などを識別したもののリスト (順不同、`/` 区切り)。どんな画像かを識別するのにお役立てください。
 
 ## 電笑戦サンプルモデルについて
-このリポジトリには、上記ボケ缶のデータからボケ AI を作るためのサンプルノートブックが含まれています。[Keras のサンプルノートブック](notebook/keras_baseline/bokete_keras_on_sagemaker.ipynb) では、株式会社電通デジタル AIエンジニア 石川隆一氏により作成された Keras のモデルをベースに、Amazon SageMaker でのトレーニングとデプロイを試すことができます。このモデルの解説はブログ「[電笑戦 ~ AI は人を笑わせられるのか 1. 挑戦を支える技術と AWS](https://aws.amazon.com/jp/builders-flash/202006/bokete/)」をご覧ください。
+このリポジトリには、上記ボケ缶のデータからボケ AI を作るためのサンプルノートブックが含まれています。[Keras のサンプルノートブック](notebook/keras_baseline/bokete_keras_on_sagemaker.ipynb) では、株式会社電通デジタル AIエンジニア 石川隆一氏により作成された Keras のモデルをベースに、Amazon SageMaker でのトレーニングとデプロイを試すことができます (ノートブックの実行には[上限緩和申請](LIMIT_INCREASE.md)が必要です!!)。このモデルの解説はブログ「[電笑戦 ~ AI は人を笑わせられるのか 1. 挑戦を支える技術と AWS](https://aws.amazon.com/jp/builders-flash/202006/bokete/)」をご覧ください。
 
 ## Security
 

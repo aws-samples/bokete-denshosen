@@ -6,7 +6,7 @@
 以下では [AWS マネージメントコンソールの言語設定](https://console.aws.amazon.com/settings/home)が日本語になっている前提で手順を説明します。また、インスタンスタイプは [Keras のサンプルノートブック](notebook/keras_baseline/bokete_keras_on_sagemaker.ipynb) で利用予定の 
 - SageMaker Studio (KernelGateway `ml.m5.large`) or SageMaker Notebook (`ml.m5.xlarge`)
 - SageMaker Processing (`ml.g4dn.xlarge`)
-- SageMaker Training (`ml.g4dn.4xlarge`)
+- SageMaker Training (`ml.g4dn.2xlarge`)
 - SageMaker Endpoints (`ml.g4dn.xlarge`) 
 
 に関して上限緩和申請を行います。
@@ -37,7 +37,7 @@
     1. 制限タイプ「SageMaker Training Jobs」を選択 (テキスト入力 "training" でフィルタリングできます)
         1. 手順 1. で決めたリージョンを選択
         1. リソースタイプ「SageMaker Training」を選択
-        1. 制限「ml.g4dn.4xlarge」(`.xlarge` ではなく `.4xlarge` を利用) を選択
+        1. 制限「ml.g4dn.2xlarge」(`.xlarge` ではなく `.4xlarge` を利用) を選択
         1. 新しい制限値「1」を入力
         1. 申請理由の説明に「ハンズオンワークショップで利用。」などと記入
         1. 「送信」ボタンを押す

@@ -11,7 +11,14 @@
 
 に関して上限緩和申請を行います。
 
-1. はじめに使うリージョンを決めておく。ハンズオンでは、安いので US のリージョン「US West (Oregon)」or「US East (Northern Virginia)」or「US East (Ohio)」利用がオススメです。あるいは、SageMaker が利用な可能な他のリージョン、例えば日本の東京リージョン「Asia Pacific (Tokyo)」や大阪リージョン「Asia Pacific (Osaka)」(表記が "Osaka-Local" となっていますが気にしないで下さい) も利用可能です。
+1. はじめに使うリージョンを決めておく。
+    1. 現在このハンズオンでサポートしているリージョンは以下の5つです: 
+        1. US West (Oregon), `us-west-2`
+        1. US East (Northern Virginia), `us-east-1`
+        1. US East (Ohio), `us-east-2`
+        1. Asia Pacific (Tokyo), `ap-northeast-1`
+        1. Asia Pacific (Osaka), `ap-northeast-3`
+    1. ハンズオンでは、安いので US のリージョン「US West (Oregon)」or「US East (Northern Virginia)」or「US East (Ohio)」利用がオススメです。あるいは、SageMaker が利用な可能な他のリージョン、例えば日本の東京リージョン「Asia Pacific (Tokyo)」や大阪リージョン「Asia Pacific (Osaka)」も利用可能です。
 1. [AWS サポートセンター](https://console.aws.amazon.com/support/) にアクセス
 1. 「ケースの作成」を選択。以下の手順に従って、制限タイプごとに4回繰り返します。 ![AWS Support](docs/image/aws_support.png)
 1. 「サービス制限の緩和」を選択 ![Create case](docs/image/create_case.png)

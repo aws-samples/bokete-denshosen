@@ -36,7 +36,7 @@
     1. 制限タイプ「SageMaker Training Jobs」を選択 (テキスト入力 "training" でフィルタリングできます)
         1. 手順 1. で決めたリージョンを選択
         1. リソースタイプ「SageMaker Training」を選択
-        1. 制限「ml.g4dn.2xlarge」(`.xlarge` ではなく `.4xlarge` を利用) を選択
+        1. 制限「ml.g4dn.2xlarge」(`.xlarge` ではなく `.2xlarge` を利用) を選択
         1. 新しい制限値「1」を入力
         1. 申請理由の説明に「ハンズオンワークショップで利用。」などと記入
         1. 「送信」ボタンを押す
